@@ -37,5 +37,5 @@ y = input("y: ")  # To get input
 
 def F():
     """for printing my name"""
-    print("Reza")
+    print("Ali")
 
