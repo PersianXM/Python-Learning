@@ -15,3 +15,6 @@ print("masahat:", x * y)
 x = input("please Enter your name: ")
 print("your name is: ", x)
 
+x = int(input("Enter width: "))
+y = int(input("Enter height: "))
+print('The area is: ', (x * y))
