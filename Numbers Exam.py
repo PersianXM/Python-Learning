@@ -10,4 +10,4 @@ print(f"area of circle with {radius} is {area}, and the circumference is {circum
 x = int(input("Enter a number: "))
 power2 = math.pow(x, 2)
 power3 = math.pow(x, 3)
-print(f"The power of 2 {x} is {power2}, and the power of 3 {x} is {power3}")
+print(f"The power of {x} is {power2}, and the power3, {x} is {power3}")
