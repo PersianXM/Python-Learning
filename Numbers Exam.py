@@ -33,6 +33,5 @@ x = int(input("Enter first number: "))
 y = int(input("Enter second number: "))
 z = int(input("Enter third number: "))
 
-meaning = statistics.mean((x, y, z))
-print(f"The mean of {x} and {y} and {z} is {mean}")
-
+mean = statistics.mean((x, y, z))
+print(f"The mean of {x}, {y} and {z} is {mean}")
