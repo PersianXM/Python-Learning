@@ -4,8 +4,8 @@ from math import pow
 
 radius = float(input("Enter radius of circle: "))
 
-area = math.pi * radius ** 2
-circumference = 2 * math.pi * radius
+area = round(math.pi * radius ** 2, 3)  # round(math.pi * radius ** 2, 3)
+circumference = round(2 * math.pi * radius, 2)  # round(2 * math.pi * radius, 3)
 
 print(f"area of circle with {radius} is {area}, and the circumference is {circumference}")
 
@@ -33,5 +33,5 @@ x = int(input("Enter first number: "))
 y = int(input("Enter second number: "))
 z = int(input("Enter third number: "))
 
-mean = statistics.mean((x, y, z))
+mean = round(statistics.mean((x, y, z)), 2)
 print(f"The mean of {x}, {y} and {z} is {mean}")
