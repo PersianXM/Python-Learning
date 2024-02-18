@@ -89,4 +89,13 @@ print(c.real)
 print(c.imag)
 print(c.conjugate())
 print(c * d)
+print(c - d)
+
+c = 3.125555
+print(round(c))
+print(round(c, 2))
+d = -1.75
+print(abs(d))
+print(pow(d, 2))
+print(pow(2, 10))
 
