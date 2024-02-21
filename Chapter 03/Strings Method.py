@@ -51,4 +51,7 @@ x = "+++ Ali Rashedi +++"
 print(x.lstrip("+"))
 print(x.rstrip("+"))
 
+x = "ali rashedi"
+print(x.capitalize())
+
 
