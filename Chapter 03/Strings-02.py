@@ -32,6 +32,7 @@ print(x[:452])
 x = "Ali Rashedi"
 print(x[len(x)-2])
 
+print(x[::-1])
 
-
-
+x = "123456789"
+print(x[::-2])
