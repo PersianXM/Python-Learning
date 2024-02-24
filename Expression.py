@@ -7,10 +7,10 @@
 def   f():
       print('reza')
 
-if True:
-  print()
-  elif False:
-      pass
-  else:
-      pass
-`
+# if True:
+#   print()
+#   elif False:
+#       pass
+#   else:
+#       pass
+# `
