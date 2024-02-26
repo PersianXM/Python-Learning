@@ -18,7 +18,7 @@ x = 3.2564
 print(f"The value of x is {{{{x}}}}")
 
 x = "ali rashedi"
-print(f"convert all a to dash, {x.replace("a", "-")}")
+print(f"convert all a to dash, {x.replace('a', '-')}")
 
 name = "Ali"
 age = 22
