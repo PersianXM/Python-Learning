@@ -5,7 +5,7 @@ print(f" total letters of, '{s}' is {len(s)}")
 
 s = "This is my sample Text!"
 c = input(f" the sample text is '{s}' What are you looking for?!")
-print(f" total letters of, '{c}' in this Template is {s.count(c)}")
+print(f" total letters of, '{c}' is {s.count(c)}")
 
 # ----------------------------------
 
@@ -14,21 +14,20 @@ print(f"total letters are: {len(x)} ,and total letter of 'r' is {x.count('r')}")
 
 # ----------------------------------
 
-s = input("Enter a character: ")
+s = input("Enter a character for stripping: ")
 s = s.rstrip()
-i = s.rfind(" ")
+print(f"striped text is: {s}")
+
+# ----------------------------------
+
+s = input("Find Space: ")
+s = s.rstrip()
+i = s.rfind(" ")     # find first space from right
 print(i)
 
-# ----------------------------------
+# -----------------------------------
 
-s = input("Enter a character: ")
+s = input("Find Space: ")
 s = s.rstrip()
-i = s.rfind(" ")
+i = s.rfind(" ")     # find first space from right
 print(s[i:])
-
-# ----------------------------------
-
-s = input("Enter a character: ")
-s = s.rstrip()
-i = s.rfind(" ")
-print(s[i+1:])
